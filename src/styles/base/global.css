@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-base);
+  cursor: none;
+}
+
+a {
+  color: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+}
+
+h1 {
+  margin: 0.5rem 0 1rem;
+  font-size: responsive 30px 110px; /* min-size, max-size */
+  font-range: 420px 1280px; /* viewport widths between which font-size is fluid */
+}
